@@ -92,21 +92,27 @@ client.once('ready', async () => {
             .addOptions([
               {
                 label: 'تذكرة دعم فني',
-                description: 'للاستفسارات والمشاكل العامة',
+                description: 'واجهك مشكلة؟ فريق الدعم لمساعدتك',
                 value: 'support_ticket',
-                emoji: '🎫'
+                emoji: '<:valhalla:1563723114721050645>'
               },
               {
                 label: 'التقديم على الإدارة',
-                description: 'لانضمام لفريق العمل وطاقم الإشراف',
+                description: 'قدم طلبك للأنضمام الى فريق الادارة وابدأ رحلتك في تنظيم وتطوير السيرفر',
                 value: 'apply_ticket',
-                emoji: '🛡️'
+                emoji: '<:valhalla:1563722622691315842>'
+              },
+              { 
+                      label: 'أستلام جائزتك',
+                description: 'استلم هداياك وجوائزك بكل سهولة اضغط هنا',
+                value: 'Gift_ticket',
+                emoji: '<:gift:1563724882402082868>'
               },
               {
                 label: 'توثيق بنات',
-                description: 'لتوثيقك يرجى فتح التذكره ',
-                value: 'shop_ticket',
-                emoji: '🦋'
+                description: 'قسم مخصص لتوثيق البنات وفق الشروط لضمان بيئة موثوقه وآمنة',
+                value: 'verify_ticket',
+                emoji: '<:pink:1563724646287675443>'
               }
             ])
         );
